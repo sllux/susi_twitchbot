@@ -32,7 +32,7 @@ client.connect();
 
 
 client.on('connected', function(address, port){
-	client.action(userChannel, `LuL`);
+	client.action(userChannel, `LUL`);
 });
 
 const port = process.env.PORT || 3000;

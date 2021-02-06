@@ -32,7 +32,7 @@ client.connect();
 
 
 client.on('connected', function(address, port){
-	client.action(userChannel, `Hi, I'm SUSI. Mention me using @${process.env.USERNAME} to chat with me.`);
+	client.action(userChannel, `LuL`);
 });
 
 const port = process.env.PORT || 3000;
